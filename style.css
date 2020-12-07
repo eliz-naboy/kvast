@@ -437,6 +437,7 @@ h3 {
 }
 
 .order-form input[type="text"],
+.order-form select,
 .order-form textarea {
     width: 100%;
     min-height: 50px;
@@ -455,6 +456,12 @@ h3 {
 
 .order-form-group-right-part {
     float: right;
+}
+
+.order-form-group select option {
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #b69054;
 }
 
 .order-form-group textarea {
@@ -477,11 +484,13 @@ input[type="submit"] {
 }
 
 .order-form input[type="text"]:hover,
+.order-form select:hover,
 .order-form textarea:hover {
     background-color: #d9ad66;
 }
 
 .order-form input[type="text"]:focus,
+.order-form select:focus,
 .order-form textarea:focus {
     background-color: white;
     color: black;
