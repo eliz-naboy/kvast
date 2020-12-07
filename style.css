@@ -1,0 +1,587 @@
+body {
+min-width: 1200px;
+margin: 0;
+padding: 0;
+font-size: 16px;
+font-family: "Arial", sans-serif;
+line-height: 30px;
+}
+
+.container {
+    width: 1015px;
+    margin: 0 auto;
+}
+
+.container-small {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+h2 {
+    font-size: 40px;
+    font-family: "Arial", sans-serif;
+    font-weight: bold;
+    padding-top: 60px;
+    text-transform: uppercase;
+}
+
+.header {
+    background-color: #ffcb78;
+    background: url("img/wheat-back.jpg") no-repeat;
+    background-size: cover;
+    height: 550px;
+    background-position: bottom;
+}
+
+.header .logo-top {
+    position: absolute;
+    top: 60px;
+    width: 140px;
+    height: 76px;
+}
+
+.main-menu {
+    list-style: none;
+    float: right;
+    width: 600px;
+    margin: 0;
+    padding: 0;
+    margin-left: 200px;
+    border-top: 1px solid rgba(256,256,256,0.2);
+    border-bottom: 1px solid rgba(256,256,256,0.2);
+    margin-top: 70px;
+    margin-bottom: 115px;
+}
+
+.main-menu li {
+    float: left;
+    margin-right: 50px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    
+}
+
+.main-menu li:last-child {
+    margin-right: 0;
+}
+
+.main-menu a {
+    font-family: "Arial", sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    line-height: 15px;
+}
+
+.main-menu a:hover {
+    color: #ffcb78;
+}
+
+.main-menu a:active {
+    color: #7a6036;
+}
+
+.header .motto {
+    font-family: "Arial", sans-serif;
+    font-size: 70px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    margin: 0;
+    line-height: 70px;
+}
+
+.new-products .new {
+    float: left;
+    width: 330px;
+    padding: 35px;
+    position: relative;
+    margin-bottom: 110px;
+}
+
+h3 {
+    font-size: 40px;
+    font-family: "Arial", sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.new-products table {
+    border-collapse: collapse;
+    position: absolute;
+    right: 35px;  
+    width: 150px; 
+}
+
+.new-products td {
+    border: 1px solid rgb(229,229,229);
+    padding: 10px;
+}
+
+.new-products caption {
+    caption-side: bottom;
+    text-align: left;
+    font-size: 14px;
+    margin-top: 10px;
+    line-height: 24px;
+}
+
+.new-products img {
+    width: 319px;
+    height: 459px;
+}
+
+.new-products a {
+    margin-top: 50px;
+    float: left;
+    padding: 10px 20px;
+    border: 2px solid #834700;
+    margin-right: 6px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.new-products .more {
+    color: #834700;
+}
+
+.new-products .more:hover {
+    color: #6a3900;
+    border-color: #6a3900;
+}
+
+.new-products .more:active {
+    color: #d2c4b3;
+    border-color: #d2c4b3;
+}
+
+.new-products .buy {
+    background-color: #834700;
+    color: white;
+}
+
+.new-products .buy:hover,
+.order input[type="submit"]:hover  {
+    background-color: #6a3900;
+}
+
+.new-products .buy:active,
+.order input[type="submit"]:active  {
+    background-color: #6a3900;
+    color: #a08874;
+}
+
+.new-products b {
+    float: left;
+    position: absolute;
+    bottom: 50px;
+    right: 50px;
+}
+
+.advantages {
+    background-color: #ffcb78;
+    padding-bottom: 100px;
+    position: relative;
+}
+
+.advantages ul {
+    list-style: none;
+    padding: 0;
+}
+
+.advantages li {
+    float: left;
+    width: 205px;
+    margin: 0;
+    margin-right: 195px;
+    padding: 0;
+}
+
+.advantages li:last-child {
+    margin-right: 0;
+    width: 210px;
+}
+
+.advantages li h2 {
+    font-size: 20px;
+    line-height: 30px;
+    margin-top: 100px;
+}
+
+.advantages p {
+    color: #836f51;
+}
+
+.advantages .adv-first::before {
+    content: "";
+    width: 50px;
+    height: 68px;
+    background: url("img/icon-brew.png") no-repeat;
+    position: absolute;
+    top: 60px;
+}
+
+.advantages .adv-second::before {
+    content: "";
+    width: 46px;
+    height: 65px;
+    background: url("img/icon-matreshka.png") no-repeat;
+    position: absolute;
+    top: 60px;
+}
+
+.advantages .adv-third::before {
+    content: "";
+    width: 63px;
+    height: 58px;
+    background: url("img/icon-thumbsup.png") no-repeat;
+    position: absolute;
+    top: 60px;
+}
+
+.history dt {
+    font-family: "Arial", sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 80px;
+}
+
+.history dt i {
+    font-size: 16px;
+    text-transform: none;
+    font-weight: normal;
+    float:right;
+}
+
+.history dd {
+    margin: 0;
+    padding:0;
+}
+
+.history dd p {
+    max-width: 490px;
+    color: #404040;
+}
+
+.history dd img {
+    float: right;
+    margin-top: 15px;
+}
+
+.history dd:last-child {
+    margin-bottom: 90px;
+}
+
+.history a {
+    color: #a9876b;
+}
+
+.history a:hover {
+    color: #6a3900;
+}
+
+.history a:active {
+    color: #cab7a2;
+}
+
+.feedback {
+    background: #ede5d8;
+    height: 480px;
+}
+
+.feedback blockquote {
+    margin: 0;
+    padding: 0;
+    margin-top: 95px;
+    position: relative;
+}
+
+.feedback blockquote::before {
+    content: "";
+    position: absolute;
+    width: 41px;
+    height: 31px;
+    background: url("img/quotes.png") no-repeat;
+    left: -105px;
+    top: 5px;
+}
+
+.feedback blockquote p {
+    margin: 0;
+    padding: 0;
+    width: 693px;
+    color: #6f6d68;
+}
+
+.feedback blockquote cite {
+    float: right;
+    font-size: 20px;
+    font-style: normal;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 40px;
+}
+
+.feedback blockquote a {
+    float: left;
+    font-style: normal;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+    color: #a5a097;
+    border: 2px solid #a5a097;
+    padding: 10px 20px;
+    margin-top: 30px;
+}
+
+.feedback a:hover {
+    color: white;
+    background-color: #a5a097;
+}
+
+.feedback a:active {
+    color: #a6a39c;
+    background-color: #8f8a81;
+}
+
+.kvas-range table {
+    width: 100%;
+    line-height: 60px;
+    text-transform: uppercase;
+    text-align: left;
+    border-collapse: collapse;
+    margin: 0;
+    margin-top: 100px;
+    margin-bottom: 90px;
+}
+
+.kvas-range table td {
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.kvas-range table th {
+    border-bottom: 1px solid #e5e5e5;
+    color: #a9a9a9;
+    font-size: 11px;
+    font-weight: normal;
+}
+
+.kvas-range table .name {
+    font-weight: bold;
+    width: 400px;
+}
+
+.kvas-range table sup {
+    background: black;
+    color: white;
+    font-size: 8px;
+    padding: 3px 5px;
+    border-radius: 2px;
+    margin-left: 20px;
+}
+
+.kvas-range table .perc {
+    width: 95px;
+}
+
+.kvas-range table .ccal {
+    width: 60px;
+}
+
+.kvas-range table .vol {
+    width: 175px;
+}
+
+.kvas-range table .price {
+    width: 70px;
+    text-align: right;
+}
+
+.order {
+    background-color: #ffcb78;
+}
+
+.order p {
+    width: 700px;
+    margin: 0;
+    padding: 0;
+    margin-top: 85px;
+    margin-bottom: 70px;
+    color: #836f51;
+}
+
+.order label {
+    font-weight: bold;
+    text-transform: uppercase;
+    display: inline-block;
+}
+
+.order .order-form {
+    width: 625px;
+    padding-bottom: 100px;
+}
+
+.order .order-form-group {
+    margin-bottom: 25px;
+}
+
+.order-form input[type="text"],
+.order-form textarea {
+    width: 100%;
+    min-height: 50px;
+    border: 0px;
+    background-color: #e5b66c;
+}
+
+.order-form .order-form-group-left-part,
+.order-form .order-form-group-right-part {
+    width: 290px;
+}
+
+.order-form-group-left-part {
+    float:left;
+}
+
+.order-form-group-right-part {
+    float: right;
+}
+
+.order-form-group textarea {
+    display: block;
+    min-height: 121px;
+}
+
+input[type="checkbox"] {
+    margin-bottom: 25px;
+}
+
+input[type="submit"] {
+    display: block;
+    color: white;
+    background-color: #834700;
+    font-size: 16px;
+    text-transform: uppercase;
+    padding: 15px 25px;
+    border: 0;
+}
+
+.order-form input[type="text"]:hover,
+.order-form textarea:hover {
+    background-color: #d9ad66;
+}
+
+.order-form input[type="text"]:focus,
+.order-form textarea:focus {
+    background-color: white;
+    color: black;
+}
+
+.footer {
+    background: black;
+    color: white;
+    position: relative;
+}
+
+.footer .logo-bottom {
+    position: absolute;
+    width: 140px;
+    height: 76px;
+    top: 60px;
+    margin-left: 40px;
+}
+
+.footer .main-menu {
+    margin-right: 100px;
+    margin-bottom: 0;
+}
+
+.footer .links {
+    float: left;
+    font-size: 0px;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 40px;   
+}
+
+.footer .links a {
+    display: inline-block;
+    border: 1px solid #322d24;
+    width: 70px;
+    height: 68px;
+    margin-top: 50px;
+    background-color: #1b1b1b;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+.footer .link-inst {
+    background-image: url("img/icon-insta.png");
+}
+
+.footer .link-fb {
+    background-image: url("img/icon-fb.png");
+}
+
+.footer .link-vk {
+    background-image: url("img/icon-vk.png");
+}
+
+.footer .links p {
+    display: inline-block;
+    color: #7c7c7c;
+    width: 200px;
+    font-size: 14px;
+    line-height: 20px;
+    vertical-align: middle;
+    padding-top: 40px;
+    margin-left: 100px;
+}
+
+.footer .copyright {
+    float: right;
+    margin-top: 50px;
+}
+
+.footer .copyright a {
+    font-size: 14px;
+    line-height: 20px;
+    color: #7c7c7c;
+    text-decoration: none;
+}
+
+.footer .copyright b {
+    font-size: 14px;
+    line-height: 20px;
+    color: #7c7c7c;
+    margin-left: 35px;
+}
+
+.footer .copyright img {
+    background: #1b1b1b;
+    border: 1px solid #322d24;
+    padding: 15px 20px;
+    vertical-align: middle;
+}
+
+.footer .links a:hover,
+.copyright img:hover {
+    border-color: #605037;
+}
+
+.footer .links a:active {
+    border-color: #2d281f;
+    background-color: #0e0e0e;
+}
+
+
